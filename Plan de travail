@@ -1,0 +1,50 @@
+1. ÉNONCÉ
+
+Coeur numérique.
+
+2. DESCRIPTION
+
+Il s'agira d'une installation sonore ambiante programmée pour jouer sans arrêt offrant à l'auditeur également le rôle de musicien. Les 
+utilisateurs pourront, à l'aide d'une manette captant la fréquence cardiaque et offrant un contrôle sur 360 degrés, modifier différents 
+paramètres audios et ainsi devenir chefs d'orchestre de la pièce numérique.
+
+3. ANALYSE DES BESOINS
+
+Pièce musicale : programmée dans Pure Data
+Contrôles avec la manette:
+  -La fréquence cardiaque de l'utilisateur active un rythme sonore dont le tempo coïncide avec son battement.
+  -Contrôle de la fréquence de la pièce ambiante sur l'axe vertical (filtre passe haut et filtre passe bas).
+  -Contrôle de la fréquence de la boîte à rythme sur l'axe horizontal (filtre passe haut et filtre passe bas).
+  -Le rythme sonore se désacive si la manette ne capte aucune fréquence cardiaque.
+
+4. ACQUISITION DE CONNAISSANCES
+
+Recherche sur les battements et les capteurs cardiaque.
+Instruments de synthèse, timbres, effets numériques, etc.
+Musique ambiante.
+http://write.flossmanuals.net/pure-data/introduction2/
+https://www.actiforme.net/frequence-cardiaque/
+http://ambientmusicguide.com/history-of-ambient/
+
+5. MODÈLE
+Pièce ambiante programmée + boîte à rythme + contrôle de la fréquence des deux éléments.
+
+Une pièce plannante, sans réel début ni fin, qui jouera en continu telle une installation auditive. Il n'y aura pas de percussions.
+Représente la partie Machine, puisque générée par l'ordinateur.
+
+La boîte à rythme sera composée de divers sons percussifs ayant des timbres différents et générés aléatoirement. Représente la partie 
+Humain, puisque déclenchée par un battement de coeur.
+
+La manète permettra de modifier la fréquence de la partie Machine sur l'axe vertical et de la partie Humain sur l'axe horizontal,
+permettant ainsi à l'utilisateurs d'essayer plusieurs équilibres différents.
+
+6. MÉTHODES
+
+Trois sons de synthèses de natures différentes couvrant l'ensemble du spectre seront modifiés aléatoirement à travers le temps dans le
+but de constituer une trame sonore ambiante artificielle. Ce sont des paramètres tels que la hauteur, le lfo, la réverbération, le 
+chorus, etc. qui changeront.
+
+Une boîte à rythme générant des sons aléatoires à partir d'une banque de percussions, selon un tempo relatif à la fréquence cardiaque
+captée par la manette (instrument).
+
+Simples potentiomètres de filtres passe-haut et passe-bas.
