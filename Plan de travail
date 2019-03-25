@@ -48,3 +48,18 @@ Une boîte à rythme générant des sons aléatoires à partir d'une banque de p
 captée par la manette (instrument).
 
 Simples potentiomètres de filtres passe-haut et passe-bas.
+
+################ Commentaires ###############
+
+Excellent projet!
+
+Petite question concernant les contrôles de la manette. Tu dis:
+
+  -Contrôle de la fréquence de la pièce ambiante sur l'axe vertical (filtre passe haut et filtre passe bas).
+  -Contrôle de la fréquence de la boîte à rythme sur l'axe horizontal (filtre passe haut et filtre passe bas).
+
+Dans ces deux énoncés, par "fréquence", il me semble qu'on entend la "vitesse" des processus, alors que filtre passe-bas et passe-haut agissent sur le spectre.
+Je crois qu'il faudrait plutôt parler de "mapping" entre les valeurs des axes de la manette et la vitesse, ou dynamique, des processus.
+
+10/10
+
