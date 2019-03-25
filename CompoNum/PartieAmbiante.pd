@@ -1,7 +1,2 @@
-<<<<<<< HEAD
 #N canvas 224 190 450 300 10;
 #X obj 142 161 synthj~;
-=======
-#N canvas 224 190 450 300 10;
-#X obj 142 161 synthj~;
->>>>>>> b8e5327239fe9d42a50d57cf2068b0341d36a56b

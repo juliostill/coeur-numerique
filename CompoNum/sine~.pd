@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #N canvas 229 83 796 564 16;
 #X obj 223 262 adsr~ 10 250 0.3 500;
 #X obj 170 412 outlet~;
@@ -26,32 +25,3 @@
 #X connect 9 0 10 0;
 #X connect 10 0 1 0;
 #X connect 11 0 0 0;
-=======
-#N canvas 229 83 796 564 16;
-#X obj 223 262 adsr~ 10 250 0.3 500;
-#X obj 170 412 outlet~;
-#X obj 159 43 inlet midi;
-#X text 269 43 [pitch \, velocity];
-#X obj 159 91 unpack;
-#X obj 159 142 mtof;
-#X obj 159 189 osc~;
-#X obj 341 122 r adsr_ctrl;
-#X obj 341 150 unpack f f f f;
-#X obj 160 228 *~;
-#X obj 170 385 *~ 0.8;
-#X obj 250 155 / 127;
-#X connect 0 0 10 1;
-#X connect 2 0 4 0;
-#X connect 4 0 5 0;
-#X connect 4 1 11 0;
-#X connect 5 0 6 0;
-#X connect 6 0 9 0;
-#X connect 7 0 8 0;
-#X connect 8 0 0 1;
-#X connect 8 1 0 2;
-#X connect 8 2 0 3;
-#X connect 8 3 0 4;
-#X connect 9 0 10 0;
-#X connect 10 0 1 0;
-#X connect 11 0 0 0;
->>>>>>> b8e5327239fe9d42a50d57cf2068b0341d36a56b
